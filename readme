@@ -1,0 +1,5 @@
+mvn clean package
+docker run -p 8080:8080 -t spatnaik77/hello-istio:1
+docker push spatnaik77/hello-istio:1
+
+
